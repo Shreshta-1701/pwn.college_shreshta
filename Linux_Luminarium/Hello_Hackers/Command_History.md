@@ -8,7 +8,8 @@ Linux commands are stored in the memory during each terminal session, and hence 
 
 Using this knowledge, we can press the up arrow key to go back and get the flag from the terminal's history.
 
-'''hacker@hello~command-history:~$ <UP ARROW PRESSED>
+'''bash
+hacker@hello~command-history:~$ <UP ARROW PRESSED>
 hacker@hello~command-history:~$ the flag is pwn.college{kDEScc1SxmrA8JpTi-lmLGtgjNz.0lNzEzNxwCMxAzNzEzW}'''
 
 ## What I Learned

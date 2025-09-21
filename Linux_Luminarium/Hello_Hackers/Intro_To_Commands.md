@@ -8,7 +8,8 @@ First we execute the 'whoami' command in the terminal, which displays the curren
 
 Next, we can use the 'hello' command which gives us the flag in return.
 
-'''hacker@hello~intro-to-commands:~$ whoami
+'''bash
+hacker@hello~intro-to-commands:~$ whoami
 hacker
 hacker@hello~intro-to-commands:~$ hello
 Success! Here is your flag:
