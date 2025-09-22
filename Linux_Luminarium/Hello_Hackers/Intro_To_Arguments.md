@@ -2,10 +2,10 @@
 The challenge asks you to open the terminal in the pwn.college DOJO and invoke the 'echo' and 'hello' commands with multiple arguments to obtain different results.
 
 ## My Solve
-**Flag:** 'pwn.college{8yVf40kJCDaZBu31EvwbUtRcKrK.QX4YjM1wCMxAzNzEzW}'
+**Flag:** `pwn.college{8yVf40kJCDaZBu31EvwbUtRcKrK.QX4YjM1wCMxAzNzEzW}`
 
-First we execute the 'echo' command in the terminal. This command can take any amount of arguments. If we type 'echo Hello', then the command has only one argument, and it displays 'Hello' in the terminal. If we pass 2 arguments to the command, like in 'echo Hello Hackers!', (The 2 arguments being Hello and Hackers!) then the output changes to 'Hello Hackers!'. 
-In a similar way, we can use the 'hello' command with the 'hackers' argument, to obtain the flag.
+First we execute the `echo` command in the terminal. This command can take any amount of arguments. If we type `echo Hello`, then the command has only one argument, and it displays `Hello` in the terminal. If we pass 2 arguments to the command, like in `echo Hello Hackers!`, (The 2 arguments being Hello and Hackers!) then the output changes to `Hello Hackers!`. 
+In a similar way, we can use the `hello` command with the 'hackers' argument, to obtain the flag.
 
 ```
 hacker@hello~intro-to-arguments:~$ echo Hello
